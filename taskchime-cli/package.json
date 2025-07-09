@@ -1,0 +1,23 @@
+{
+  "name": "taskchime-cli",
+  "version": "1.0.0",
+  "description": "A terminal-based version of the TaskChime application.",
+  "main": "taskchime-cli.js",
+  "scripts": {
+    "start": "node taskchime-cli.js"
+  },
+  "keywords": [
+    "task",
+    "timer",
+    "productivity",
+    "cli",
+    "terminal"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "chalk": "^4.1.2",
+    "node-notifier": "^10.0.1"
+  }
+}
